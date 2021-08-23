@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import styled from 'styled-components'
 
@@ -19,14 +20,20 @@ function Header() {
                     <span><b>Live Coding</b></span>
                 </a>
                 <a>
-                    <span><b>Labs</b></span>
+                    <span2>pro</span2>
                 </a>
                 <a>
-                    <span><b>Acelerações</b></span>
+                    <span4><b>Labs</b></span4>
+                </a>
+                <a>
+                    <span3>pro</span3>
+                </a>
+                <a>
+                    <span5><b>Acelerações</b></span5>
                 </a>
                 <a>
                     <span><b>Artigos</b></span>
-                </a> 
+                </a>
             </NavMenu>
             <UserImg3 src="/images/alert.png" />
             <UserImg4 src="/images/hearts.png" />
@@ -50,6 +57,7 @@ const Nav = styled.nav`
 const Logo = styled.img`
     width: 126px;
     margin-bottom:1px;
+    cursor: pointer;
 `
 // Definindo o estilo NavMenu do Header
 const NavMenu = styled.div`
@@ -60,12 +68,118 @@ const NavMenu = styled.div`
     a {
         display: flex;
         algn-item: center;
-        padding: 0 12px;
-        cursor: pointer;
+        padding: 0 12px;       
 
         span {
             font-size: 16px;
-        }        
+            cursor: pointer;
+            position: relative;
+
+            &::after {
+                content: "";
+                display: flex;
+                margin-bottom: -16px;
+                height: 4px;
+                background-color: rgb(247, 149, 51);
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -6px;
+                opacty: 0;
+                transform-origin: left center;
+                transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                transform: scaleX(0);
+            }
+        }
+        
+        span2 {
+            font-size: 14px;
+
+            content: "pro";
+                border-radius: 4px;
+                background: rgb(247, 149, 51);
+                position: relative; bottom:16px; right: 38px;
+                font-weight: bold
+        }
+        
+        span3 {
+            font-size: 14px;
+
+            content: "pro";
+                border-radius: 4px;
+                background: rgb(247, 149, 51);
+                position: relative; bottom:16px; right: 38px;
+                font-weight: bold
+        }
+
+        span4 {
+            font-size: 16px;
+            cursor: pointer;
+            position: relative;
+            margin-left: -34px;
+
+            &::after {
+                content: "";
+                display: flex;
+                margin-bottom: -16px;
+                height: 4px;
+                margin-top: 8px;
+                background-color: rgb(247, 149, 51);
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -6px;
+                opacty: 0;
+                transform-origin: left center;
+                transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                transform: scaleX(0);
+            }
+        }
+
+        span5 {
+            font-size: 16px;
+            cursor: pointer;
+            position: relative;
+            margin-left: -36px;
+
+            &::after {
+                content: "";
+                display: flex;
+                margin-bottom: -16px;
+                height: 4px;
+                background-color: rgb(247, 149, 51);
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -6px;
+                opacty: 0;
+                transform-origin: left center;
+                transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                transform: scaleX(0);
+                
+            }
+        }
+        
+        &:hover { 
+            span:after {
+                transform: scaleX(1);  
+                opacity: 1;
+            }
+        }
+
+        &:hover {
+            span4:after {
+                transform: scaleX(1);
+                opacity: 1;
+            }
+        }
+
+        &:hover {
+            span5:after {
+                transform: scaleX(1);
+                opacity: 1;
+            }
+        }
     }
 `
 // Estilizando a imagem do perfil
@@ -100,6 +214,7 @@ const Button = styled.img`
 // estilizando o painel de hearts
 const UserImg4 = styled.img`
     margin-right: 5px;
+    cursor: pointer;
 `
 
 
