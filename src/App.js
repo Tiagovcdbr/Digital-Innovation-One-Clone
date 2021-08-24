@@ -9,8 +9,14 @@ function App() {
     <div className="App">
       <Header />
       <Home />
+
+    {/* App Body */}
+    {/* Sidebar */}
+    {/* Feed */}
+    {/* Widgets */}
     </div>
   );
 }
 
 export default App;
+

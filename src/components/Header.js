@@ -43,9 +43,9 @@ function Header() {
         </Nav>
     )
 }
-
+// Todos os spans acima e UserImg estão classificados com nomes diferentes para facilitar o entendimento e suas estilizações......
 export default Header  
-// Definindo o estilo do Header
+// Definindo o estilo do Header --- ↙↙
 const Nav = styled.nav`   
     height: 70px;
     background: #090b13;
@@ -53,17 +53,18 @@ const Nav = styled.nav`
     align-items: center;
     padding: 0 10px;
 `
-// Definindo o estilo do Logo do Header
+// Definindo o estilo do Logo do Header --- ↙↙
 const Logo = styled.img`
-    width: 126px;
-    margin-bottom:1px;
+    width: 130px;
+    margin-bottom:-1px;
+    margin-left: -9px;
     cursor: pointer;
 `
-// Definindo o estilo NavMenu do Header
+// Definindo o estilo NavMenu do Header --- ↙↙ ⇩⇩
 const NavMenu = styled.div`
     display: flex;
     flex: 1;
-    margin-left: 20px;
+    margin-left: 10px;
 
     a {
         display: flex;
@@ -72,6 +73,7 @@ const NavMenu = styled.div`
 
         span {
             font-size: 16px;
+
             cursor: pointer;
             position: relative;
 
@@ -93,7 +95,13 @@ const NavMenu = styled.div`
         }
         
         span2 {
-            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            width: 30px;
+            height: 16px;
+            box-sizing: border-box;
 
             content: "pro";
                 border-radius: 4px;
@@ -103,7 +111,13 @@ const NavMenu = styled.div`
         }
         
         span3 {
-            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            width: 30px;
+            height: 16px;
+            box-sizing: border-box;
 
             content: "pro";
                 border-radius: 4px;
@@ -114,6 +128,7 @@ const NavMenu = styled.div`
 
         span4 {
             font-size: 16px;
+            
             cursor: pointer;
             position: relative;
             margin-left: -34px;
@@ -138,6 +153,7 @@ const NavMenu = styled.div`
 
         span5 {
             font-size: 16px;
+
             cursor: pointer;
             position: relative;
             margin-left: -36px;
@@ -182,7 +198,10 @@ const NavMenu = styled.div`
         }
     }
 `
-// Estilizando a imagem do perfil
+// A personalização acima const NavMenu = styled.div está toda configuração do Header foi criado varios spans ↖
+// pois fica mais facil trabalhar e fazer alterações de acordo com o gosto próprio.
+
+// Estilizando a imagem do perfil ------------- ↙↙
 const UserImg = styled.img`
     border-radius: 50%;
     border: 3px solid rgb(247, 149, 51);
@@ -192,7 +211,7 @@ const UserImg = styled.img`
     margin-right: 35px;
     position: relative;
 `
-// estilizando o icone da bandeira do País do perfil
+// estilizando o icone da bandeira do País do perfil --- ↙↙
 const UserImg2 = styled.img`
     width: 9px;
     height: 8px;
@@ -201,17 +220,17 @@ const UserImg2 = styled.img`
     margin-top: 55px;
     position: relative; bottom:7px; right: 65px;
 `
-// estilizando o sino de alerta
+// estilizando o sino de alerta --- ↙↙
 const UserImg3 = styled.img`
     cursor: pointer;
     margin-left: 12px;   
 `
-// estilizando o icone seta para baixo ao lado da foto altera o perfil
+// estilizando o icone seta para baixo ao lado da foto altera o perfil --- ↙↙
 const Button = styled.img`
     position: relative; bottom:1px; right: 43px;
     cursor: pointer;
 `
-// estilizando o painel de hearts
+// estilizando o painel de hearts --- ↙↙
 const UserImg4 = styled.img`
     margin-right: 5px;
     cursor: pointer;
