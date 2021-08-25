@@ -8,14 +8,15 @@ function Home() {
         <Nav>
             <Status>
                 <span><b>LEVEL 21</b></span>
-            </Status>
-            <Logo src="/images/Tiago.jpg" />
-            <NavMenu>
+            </Status>            
+                <Logo src="/images/Tiago.jpg" />
+                <NavMenu>
                 <h3>Tiago Silva</h3>
                 <h4>Experiência 46692/47089</h4>
                 <a>
                     <span><b>PRO</b></span>
-                </a>                
+                </a>
+                <Flag src="https://hermes.digitalinnovation.one/school/flags/328b2afb-b47b-49cb-9e87-9cd08dc77798.png" />
                 <div class="progress">
                     <div className="progress-bar"></div>
                 </div>                
@@ -26,7 +27,7 @@ function Home() {
 
 export default Home 
 {/* Estilizando o perfil principal e adicionando os efeitos de leve de transição que surge ao passar o
-mouse o efeito é aplicado com uma duração de 2s e junto a isso o efeito de cor ao fundo somando os 2 efeitos */}
+mouse o efeito é aplicado com uma duração de 2s e junto a isso o efeito de cor ao fundo somando os 2 efeitos ... ↙↙↙↙ */} 
 const Nav = styled.nav` 
     justify-content: center;
     align-items: center;
@@ -48,15 +49,26 @@ const Nav = styled.nav`
     }    
         
 `
+
+const Flag = styled.img`
+    width: 18px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 45px;
+    border-radius: 50%;
+`
     
-// Estilizando o logo do perfil 
+// Estilizando o logo do perfil ... ↙↙↙↙
 const Logo = styled.img`
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     border: 3px solid rgb(247, 149, 51);
-    width: 60px;
-    height: 64px;
+    width: 58px;
+    height: 60px;
     position: relative;
      display: flex;
      aling-items: center;
@@ -65,7 +77,8 @@ const Logo = styled.img`
      margin-top: 10px;
        
 `
-
+// Estilizando o NavMenu que contem o h3 e h4, os span que está no link <a></a> 
+//Também o progress-bar altura, largura e progresso são definidos ... ↙↙↙↙
 const NavMenu = styled.div`
     h3 {
         font-size: 17px;
@@ -90,19 +103,21 @@ const NavMenu = styled.div`
         margin-left: 65px;
         margin-top: -55px;
         border-radius: 4px;
-                max-width: 1px;
-                border-right: 25px;
+
+                display: flex;
+                width: 0.1px;
+                height: 19px;
                 background: rgb(247, 149, 51);
-                position: relative; bottom:4px; right: 5px;
-                font-weight: bold
+                position: relative; bottom:5px; right: 5px;
+                
     }   
 
     .progress {
-    margin-top: 31px;
+    margin-top: 17px;
     border-radius: 8px;
     margin-left: 120px;
     width: 53%;
-    height: 10px;
+    height: 8px;
     background-color: #777;
     position: relative;
 }
@@ -123,20 +138,23 @@ const NavMenu = styled.div`
 }
                 
 `
-
+// Estilizando o status que no caso é o level 21 ... ↙↙↙↙
 const Status = styled.div`
     font-size: 12px;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 
-    content: LEVEL 21;
-    margin-left: 220px;
-    margin-top: 18px;
-    border-radius: 8px;
-     background: #32a929 !important;
-     color: white;
-     display: flex;
-     position: absolute; width: 62px;
-    font-weight: bold
+            content: LEVEL 21;
+            margin-left: 228px;
+            margin-top: 17px;
+            border-radius: 8px;
+            background: #32a929 !important;
+            color: white;
+            display: flex;
+            position: absolute; width: 62px;
+            font-weight: bold
 `
+
+    
+    
