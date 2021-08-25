@@ -20,13 +20,13 @@ function Header() {
                     <span><b>Live Coding</b></span>
                 </a>
                 <a>
-                    <span2>pro</span2>
+                    <span2>PRO</span2>
                 </a>
                 <a>
                     <span4><b>Labs</b></span4>
                 </a>
                 <a>
-                    <span3>pro</span3>
+                    <span3>PRO</span3>
                 </a>
                 <a>
                     <span5><b>Acelerações</b></span5>
@@ -55,12 +55,13 @@ const Nav = styled.nav`
 `
 // Definindo o estilo do Logo do Header --- ↙↙
 const Logo = styled.img`
-    width: 130px;
-    margin-bottom:-1px;
+    width: 134px;
+    margin-top: -1px;
+    margin-bottom: 1px;
     margin-left: -9px;
     cursor: pointer;
 `
-// Definindo o estilo NavMenu do Header --- ↙↙ ⇩⇩
+// Definindo o estilo NavMenu do Header no caso a imagem do perfil --- ↙↙ ⇩⇩
 const NavMenu = styled.div`
     display: flex;
     flex: 1;
@@ -68,7 +69,7 @@ const NavMenu = styled.div`
 
     a {
         display: flex;
-        algn-item: center;
+        align-item: center;
         padding: 0 12px;       
 
         span {
@@ -98,7 +99,7 @@ const NavMenu = styled.div`
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 13px;
+            font-size: 11px;
             width: 30px;
             height: 16px;
             box-sizing: border-box;
@@ -114,7 +115,7 @@ const NavMenu = styled.div`
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 13px;
+            font-size: 11px;
             width: 30px;
             height: 16px;
             box-sizing: border-box;
