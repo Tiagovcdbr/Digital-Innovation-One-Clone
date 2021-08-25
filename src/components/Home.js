@@ -56,7 +56,7 @@ const Flag = styled.img`
     align-items: center;
     display: flex;
     position: absolute;
-    margin-top: 25px;
+    margin-top: 22px;
     margin-left: 45px;
     border-radius: 50%;
 `
@@ -85,7 +85,7 @@ const NavMenu = styled.div`
         aling-items: center;
         justify-content: center;
         margin-left: 120px;
-        margin-top: -65px;
+        margin-top: -55px;
     }
 
     h4 {
@@ -101,7 +101,7 @@ const NavMenu = styled.div`
         justify-content: center;
         padding: 0 20px;
         margin-left: 65px;
-        margin-top: -55px;
+        margin-top: -60px;
         border-radius: 4px;
 
                 display: flex;
@@ -113,7 +113,7 @@ const NavMenu = styled.div`
     }   
 
     .progress {
-    margin-top: 17px;
+    margin-top: 22px;
     border-radius: 8px;
     margin-left: 120px;
     width: 53%;
@@ -147,7 +147,7 @@ const Status = styled.div`
 
             content: LEVEL 21;
             margin-left: 228px;
-            margin-top: 17px;
+            margin-top: 23px;
             border-radius: 8px;
             background: #32a929 !important;
             color: white;
