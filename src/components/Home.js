@@ -45,7 +45,7 @@ const Nav = styled.nav`
     transition: .2s ease all;
 
     &&:hover {
-        background-color: rgba(22,22,22,.3);
+        background-color: rgba(50,50,50,.6);
     }    
         
 `
@@ -118,7 +118,7 @@ const NavMenu = styled.div`
     margin-left: 120px;
     width: 53%;
     height: 8px;
-    background-color: #777;
+    background-color: rgb(250, 250, 250);
     position: relative;
 }
 

@@ -48,7 +48,7 @@ const Nav = styled.nav`
     transition: .2s ease all;
 
     &&:hover {
-        background-color: rgba(22,22,22,.3);
+        background-color:  rgba(50,50,50,.6);
     }
 `
 const List = styled.img`
