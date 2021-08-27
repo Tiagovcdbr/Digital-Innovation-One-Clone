@@ -124,7 +124,7 @@ const NavMenu = styled.div`
 
 .progress .progress-bar {
    position: absolute;
-   height: 87%;
+   height: 100%;
    border-radius: 8px;
    background-color: #32a929;
    animation: progress-animation 6s infinite;

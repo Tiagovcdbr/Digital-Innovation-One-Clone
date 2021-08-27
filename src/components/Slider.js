@@ -37,6 +37,7 @@ function Slider() {
 export default Slider
 
 const Card = styled.div`
+    margin-right: 30px;
     height: 167px;
     display: flex;
     justify-content: center;
