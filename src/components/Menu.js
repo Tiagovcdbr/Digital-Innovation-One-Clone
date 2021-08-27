@@ -14,7 +14,7 @@ function Menu() {
             <List src="/images/Acelerações.png" />
                 <h3>Acelerações</h3>
             <List src="/images/Artigos.png" />
-                <h3>Artigos</h3>
+            <h3>Artigos</h3>                        
         </Nav>
     )
 }
@@ -28,7 +28,7 @@ const Nav = styled.nav`
     justify-content: center;
     align-items: center;
     margin-top: 28px;
-    margin-left: 15%;    
+    margin-left: 15.4%;    
 
     h3 {
         margin-left: 45px;
@@ -53,6 +53,5 @@ const Nav = styled.nav`
 `
 const List = styled.img`
     justify-content: center;
-    align-items: center; 
-       
+    align-items: center;       
 `

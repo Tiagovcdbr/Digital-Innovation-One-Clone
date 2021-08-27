@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import { Container } from '@material-ui/core'
 import React from 'react'
@@ -54,6 +55,10 @@ const Card = styled.div`
         display: flex;
         margin-left: 320px;
         margin-top: -54px;
+
+        position: relative;
+	    color: #ffffff;
+	    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
         }        
     }
     a {
@@ -63,6 +68,10 @@ const Card = styled.div`
         display: flex;
         margin-left: 487px;
         margin-top: -40px;
+
+        position: relative;
+	    color: #ffffff;
+	    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
         }        
     }
     a {
@@ -72,6 +81,10 @@ const Card = styled.div`
         display: flex;
         margin-left: 657px;
         margin-top: -38px;
+
+        position: relative;
+	    color: #ffffff;
+	    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
         }        
     }
     a {
@@ -81,6 +94,10 @@ const Card = styled.div`
         display: flex;
         margin-left: 826px;
         margin-top: -38px;
+
+        position: relative;
+	    color: #ffffff;
+	    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
         }        
     }
 `
@@ -100,7 +117,18 @@ const CardImg = styled.img`
         border-style: solid;
         border: 1px solid transparent;
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-        transform: 2s        
+        transform: 2s  
+        
+        overflow: hidden;
+
+    max-width: 70%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
     }
 `
 
@@ -118,7 +146,18 @@ const CardImg2 = styled.img`
         border-style: solid;
         border: 1px solid transparent;
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-        transform: 2s        
+        transform: 2s
+        
+        overflow: hidden;
+
+    max-width: 70%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
     }
 `
 
@@ -136,7 +175,18 @@ const CardImg3 = styled.img`
         border-style: solid;
         border: 1px solid transparent;
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-        transform: 2s        
+        transform: 2s
+        
+        overflow: hidden;
+
+    max-width: 70%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
     }
 `
 
@@ -154,7 +204,18 @@ const CardImg4 = styled.img`
         border-style: solid;
         border: 1px solid transparent;
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-        transform: 2s        
+        transform: 2s
+        
+        overflow: hidden;
+
+    max-width: 70%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
     }
 `
 
@@ -163,7 +224,7 @@ const IconImg = styled.img`
     position: absolute;
     width: 14px;
     margin-left: 412px;
-    margin-top: -29px;
+    margin-top: -31px;
 `
 
 const IconImg2 = styled.img`
@@ -171,7 +232,7 @@ const IconImg2 = styled.img`
     position: absolute;
     width: 14px;
     margin-left: 563px;
-    margin-top: -29px;
+    margin-top: -31px;
 `
 
 const IconImg3 = styled.img`
@@ -179,7 +240,7 @@ const IconImg3 = styled.img`
     position: absolute;
     width: 14px;
     margin-left: 717px;
-    margin-top: -29px;
+    margin-top: -31px;
 `
 
 const IconImg4 = styled.img`
@@ -187,7 +248,7 @@ const IconImg4 = styled.img`
     position: absolute;
     width: 14px;
     margin-left: 902px;
-    margin-top: -29px;
+    margin-top: -31px;
 `
 
 
