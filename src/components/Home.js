@@ -12,13 +12,13 @@ function Home() {
                 <Logo src="/images/Tiago.jpg" />
                 <NavMenu>
                 <h3>Tiago Silva</h3>
-                <h4>Experiência 46692/47089</h4>
+                <h4>Experiência 46774/47089</h4>
                 <a>
                     <span><b>PRO</b></span>
                 </a>
                 <Flag src="https://hermes.digitalinnovation.one/school/flags/328b2afb-b47b-49cb-9e87-9cd08dc77798.png" />
-                <div class="progress">
-                    <div className="progress-bar"></div>
+                <div class="progress1">
+                    <div className="progress-bar1"></div>
                 </div>                
             </NavMenu>
         </Nav>
@@ -112,7 +112,7 @@ const NavMenu = styled.div`
                 
     }   
 
-    .progress {
+    .progress1 {
     margin-top: 22px;
     border-radius: 8px;
     margin-left: 120px;
@@ -122,8 +122,8 @@ const NavMenu = styled.div`
     position: relative;
 }
 
-.progress .progress-bar {
-   position: absolute;
+.progress1 .progress-bar1 {
+   position: relative;
    height: 100%;
    border-radius: 8px;
    background-color: #32a929;
@@ -133,8 +133,7 @@ const NavMenu = styled.div`
 @keyframes progress-animation {
     0% { width: 0%; }
     
-    100% { width: 94%}
-    
+    100% { width: 97%}    
 }
                 
 `
