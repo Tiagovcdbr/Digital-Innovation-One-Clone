@@ -100,12 +100,13 @@ const NavMenu = styled.div`
             justify-content: center;
             align-items: center;
             font-size: 11px;
+            margin-top: 3px;
             width: 30px;
             height: 16px;
             box-sizing: border-box;
 
             content: "pro";
-                border-radius: 4px;
+                border-radius: 5px;
                 background: rgb(247, 149, 51);
                 position: relative; bottom:16px; right: 38px;
                 font-weight: bold
@@ -116,12 +117,13 @@ const NavMenu = styled.div`
             justify-content: center;
             align-items: center;
             font-size: 11px;
+            margin-top: 3px;
             width: 30px;
             height: 16px;
             box-sizing: border-box;
 
             content: "pro";
-                border-radius: 4px;
+                border-radius: 5px;
                 background: rgb(247, 149, 51);
                 position: relative; bottom:16px; right: 38px;
                 font-weight: bold
@@ -157,7 +159,7 @@ const NavMenu = styled.div`
 
             cursor: pointer;
             position: relative;
-            margin-left: -36px;
+            margin-left: -42px;
 
             &::after {
                 content: "";

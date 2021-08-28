@@ -72,7 +72,6 @@ const Logo = styled.img`
     position: relative;
      display: flex;
      aling-items: center;
-     justify-content: center;
      margin-left: 20px;
      margin-top: 10px;
        

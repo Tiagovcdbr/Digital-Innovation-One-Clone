@@ -49,7 +49,7 @@ function Ranking() {
                     <div className="progress-bar-5"></div>
                 </div>
             </Perfil4>
-             <Logo5 src="https://hermes.digitalinnovation.one/users/student/0ee46ea9-e38a-4de5-86fb-e4d458975636.jpg" alt="Jair Reis" alt="Ricardo Shikata" />
+             <Logo5 src="https://hermes.digitalinnovation.one/users/student/0ee46ea9-e38a-4de5-86fb-e4d458975636.jpg" alt="Jair Reis" />
             <Perfil5>
                 <h3>Jair Reis</h3>
                 <h4>XP 7444/19000</h4>
@@ -67,12 +67,13 @@ export default Ranking
 
 const Nav = styled.div`
     margin-top: 95px;
+    background-color: rgba(50,50,50,.6);  
 
-        span {
-            font-size:14px;
-            margin-left: 1342px;
-            margin-bottom: 318px;
-        }
+    span {
+        font-size:14px;
+        margin-left: 1342px;
+        margin-bottom: 318px;
+    }
 `
 
 const RankMenu = styled.div`
@@ -86,7 +87,7 @@ const RankMenu = styled.div`
         margin-top: -414px;
         color: rgb(247, 149, 51);        
     }
-`
+` 
 
 // Estlizando a imagem do perfil 1 no Ranking
 const Logo = styled.img`

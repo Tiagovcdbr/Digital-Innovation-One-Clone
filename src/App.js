@@ -7,6 +7,7 @@ import Menu from './components/Menu'
 import Slider from './components/Slider';
 import BootCamps from './components/BootCamps'
 import Ranking from './components/Ranking'
+import Cards from './components/Cards'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Slider />
       <BootCamps />
       <Ranking />
+      <Cards />
     </div>
   );
 }

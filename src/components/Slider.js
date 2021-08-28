@@ -37,14 +37,14 @@ function Slider() {
 export default Slider
 
 const Card = styled.div`
-    margin-right: 48px;
+    margin-right: 52px;
     height: 167px;
     display: flex;
     justify-content: center;
 
     h4{
         font-size: 21px;
-        margin-right: 50px;
+        margin-right: 55px;
         margin-top: -100px;
         text-align: left;
         position: absolute;        
