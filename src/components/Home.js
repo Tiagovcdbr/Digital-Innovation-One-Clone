@@ -132,7 +132,7 @@ const NavMenu = styled.div`
 @keyframes progress-animation {
     0% { width: 0%; }
     
-    100% { width: 97%}    
+    100% { width: 100%}    
 }
                 
 `
