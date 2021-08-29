@@ -12,6 +12,11 @@ function Cards() {
             <Card5 src="/images/slide5.png" alt="slide5" />
             <Card6 src="/images/slide6.png" alt="slide6" />
             <Card7 src="/images/slide7.png" alt="slide6" />
+            <Card8 src="/images/feed1.png" alt="feed1" />
+            <Card9 src="/images/feed2.png" alt="feed2" />
+            <Card10 src="/images/feed3.png" alt="feed3" />
+            <Card11 src="/images/feed4.png" alt="feed4" />
+            <Card12 src="/images/feed5.png" alt="feed5" />
             <Feed>
                 <span>Feed</span>                
             </Feed>
@@ -119,6 +124,36 @@ const Card7 = styled.img`
     align-items: center;
     margin-right: 10px;
     cursor: pointer;
+`
+
+const Card8 = styled.img`
+    position: absolute;
+    cursor: pointer;
+    margin-top: 1280px;
+`
+
+const Card9 = styled.img`
+    position: absolute;
+    cursor: pointer;
+    margin-top: 1550px;
+`
+
+const Card10 = styled.img`
+    position: absolute;
+    cursor: pointer;
+    margin-top: 1815px;
+`
+
+const Card11 = styled.img`
+    position: absolute;
+    cursor: pointer;
+    margin-top: 2080px;
+`
+
+const Card12 = styled.img`
+    position: absolute;
+    cursor: pointer;
+    margin-top: 2352px;
 `
 
 const Feed = styled.div`

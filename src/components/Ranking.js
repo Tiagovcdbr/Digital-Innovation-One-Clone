@@ -105,8 +105,8 @@ const Logo = styled.img`
 // Estlizando a imagem do perfil 2 no Ranking
 const Logo2 = styled.img`
     float: right;
-    margin-right: 525px;
-    margin-top: -288px;
+    margin-right: 515px;
+    margin-top: -395px;
     width: 32px;
     border: 3px solid rgb(247, 149, 51);
     border-radius: 50%;
@@ -114,8 +114,8 @@ const Logo2 = styled.img`
 
 const Logo3 = styled.img`
     float: right;
-    margin-right: 525px;
-    margin-top: -218px;
+    margin-right: 513px;
+    margin-top: -322px;
     width: 32px;
     border: 3px solid rgb(247, 149, 51);
     border-radius: 50%;
@@ -123,8 +123,8 @@ const Logo3 = styled.img`
 
 const Logo4 = styled.img`
     float: right;
-    margin-right: 525px;
-    margin-top: -148px;
+    margin-right: 512px;
+    margin-top: -255px;
     width: 32px;
     border: 3px solid rgb(247, 149, 51);
     border-radius: 50%;
@@ -132,8 +132,8 @@ const Logo4 = styled.img`
 
 const Logo5 = styled.img`
     float: right;
-    margin-right: 525px;
-    margin-top: -77px;
+    margin-right: 510px;
+    margin-top: -185px;
     width: 32px;
     border: 3px solid rgb(247, 149, 51);
     border-radius: 50%;
@@ -143,21 +143,21 @@ const Logo5 = styled.img`
 const Perfil = styled.div`
     h3 {
         float: right;
-        margin-top: -361px;
+        margin-top: -470px;
         margin-right: 380px;
         font-size: 15px;
     }
 
     h4 {
         float: right;
-        margin-top: -342px;
+        margin-top: -450px;
         margin-right: 400px;
         font-size: 14px;
     }
 
         .progress2 {
     float: right;
-    margin-top: -322px;
+    margin-top: -430px;
     border-radius: 8px;
     margin-right: 323px;
     width: 9.7%;
@@ -185,23 +185,23 @@ const Perfil = styled.div`
 const Perfil2 = styled.div`
     h3 {
         float: right;
-        margin-top: -292px;
-        margin-right: 408px;
+        margin-top: -400px;
+        margin-right: 395px;
         font-size: 15px;
     }
 
     h4 {
         float: right;
-        margin-top: -274px;
-        margin-right: 412px;
+        margin-top: -380px;
+        margin-right: 399px;
         font-size: 14px;
     }
     
     .progress-3 {
     float: right;
-    margin-top: -253px;
+    margin-top: -360px;
     border-radius: 8px;
-    margin-right: 334px;
+    margin-right: 324px;
     width: 9.7%;
     height: 8px;
     background-color: rgb(250, 250, 250);
@@ -227,23 +227,23 @@ const Perfil2 = styled.div`
 const Perfil3 = styled.div`
     h3 {
         float: right;
-        margin-top: -222px;
-        margin-right: 418px;
+        margin-top: -325px;
+        margin-right: 408px;
         font-size: 15px;
     }
 
     h4 {
         float: right;
-        margin-top: -203px;
-        margin-right: 419px;
+        margin-top: -306px;
+        margin-right: 408px;
         font-size: 14px;
     }
     
     .progress-4 {
     float: right;
-    margin-top: -182px;
+    margin-top: -286px;
     border-radius: 8px;
-    margin-right: 334px;
+    margin-right: 327px;
     width: 9.7%;
     height: 8px;
     background-color: rgb(250, 250, 250);
@@ -269,23 +269,23 @@ const Perfil3 = styled.div`
 const Perfil4 = styled.div`
     h3 {
         float: right;
-        margin-top: -152px;
-        margin-right: 413px;
+        margin-top: -260px;
+        margin-right: 402px;
         font-size: 15px;
     }
 
     h4 {
         float: right;
-        margin-top: -134px;
-        margin-right: 420px;
+        margin-top: -242px;
+        margin-right: 408px;
         font-size: 14px;
     }
     
     .progress-5 {
     float: right;
-    margin-top: -113px;
+    margin-top: -221px;
     border-radius: 8px;
-    margin-right: 334px;
+    margin-right: 325px;
     width: 9.7%;
     height: 8px;
     background-color: rgb(250, 250, 250);
@@ -311,23 +311,23 @@ const Perfil4 = styled.div`
 const Perfil5 = styled.div`
     h3 {
         float: right;
-        margin-top: -83px;
-        margin-right: 463px;
+        margin-top: -190px;
+        margin-right: 450px;
         font-size: 15px;
     }
 
     h4 {
         float: right;
-        margin-top: -65px;
-        margin-right: 420px;
+        margin-top: -170px;
+        margin-right: 407px;
         font-size: 14px;
     }
     
     .progress-6 {
     float: right;
-    margin-top: -45px;
+    margin-top: -150px;
     border-radius: 8px;
-    margin-right: 334px;
+    margin-right: 325px;
     width: 9.7%;
     height: 8px;
     background-color: rgb(250, 250, 250);
@@ -353,37 +353,37 @@ const Position1 = styled.div`
     float:right;
     font-size: 14px;
     margin-right: 553px;
-    margin-top: -400px;
+    margin-top: -460px;
 `
 
 const Position2 = styled.div`
     float:right;
     font-size: 14px;
-    margin-right: 565px;
-    margin-top: -278px;
+    margin-right: 555px;
+    margin-top: -385px;
 `
 
 const Position3 = styled.div`
     float:right;
     font-size: 14px;
-    margin-right: 565px;
-    margin-top: -207px;
+    margin-right: 554px;
+    margin-top: -312px;
 `
 
 const Position4 = styled.div`
     float:right;
     font-size: 14px;
-    margin-right: 565px;
-    margin-top: -138px;
+    margin-right: 554px;
+    margin-top: -246px;
 `
 
 const Position5 = styled.div`
-    position: relative;
+    
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: 14px;
-    margin-left: 1380px;
+    margin-left: 1378px;
     margin-top: -48px;
     
 `
@@ -392,7 +392,7 @@ const Flag = styled.img`
     float: right;
     width: 10px;
     height: 10px;
-    margin-top: -380px;
+    margin-top: -438px;
     margin-right: 527px;    
     border-radius: 50%;
 `
@@ -401,8 +401,8 @@ const Flag2 = styled.img`
     float: right;
     width: 11px;
     height: 10px;
-    margin-top: -257px;
-    margin-right: 538px;    
+    margin-top: -365px;
+    margin-right: 529px;    
     border-radius: 50%;
 `
 
@@ -410,8 +410,8 @@ const Flag3 = styled.img`
     float: right;
     width: 11px;
     height: 10px;
-    margin-top: -188px;
-    margin-right: 538px;    
+    margin-top: -290px;
+    margin-right: 527px;    
     border-radius: 50%;
 `
 
@@ -419,8 +419,8 @@ const Flag4 = styled.img`
     float: right;
     width: 11px;
     height: 10px;
-    margin-top: -117px;
-    margin-right: 538px;    
+    margin-top: -224px;
+    margin-right: 527px;    
     border-radius: 50%;
 `
 
@@ -428,8 +428,8 @@ const Flag5 = styled.img`
     float: right;
     width: 11px;
     height: 10px;
-    margin-top: -45px;
-    margin-right: 538px;    
+    margin-top: -153px;
+    margin-right: 525px;    
     border-radius: 50%;
 `
 
