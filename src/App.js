@@ -8,6 +8,7 @@ import Slider from './components/Slider';
 import BootCamps from './components/BootCamps'
 import Ranking from './components/Ranking'
 import Cards from './components/Cards'
+import Topics from './components/Topics'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <BootCamps />
       <Ranking />
       <Cards />
+      <Topics />
     </div>
   );
 }

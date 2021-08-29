@@ -12,6 +12,7 @@ function Ranking() {
             <Position5></Position5>
             <RankMenu>
                 <span>#RANKING DA SEMANA</span>
+                <span2>VER TODOS</span2>
             </RankMenu>
              <Logo src="https://hermes.digitalinnovation.one/users/student/c3e5b168-30e1-458c-bbe6-00b5947cb419.jpg" alt="Thiago Bernegossi" />
             <Perfil>
@@ -74,6 +75,13 @@ const Nav = styled.div`
         font-size:14px;
         margin-left: 1342px;
         margin-bottom: 318px;
+    }
+
+    span2 {
+        font-size: 14px;
+        position: absolute;
+        margin-left: 1520px;
+        margin-top: 45px;
     }
 `
 
@@ -142,6 +150,8 @@ const Logo5 = styled.img`
 // Imagem do perfil nome Level e barra de Experiência criados e configurados do perfil 1 
 const Perfil = styled.div`
     h3 {
+        cursor: pointer;
+        cursor: pointer;
         float: right;
         margin-top: -470px;
         margin-right: 380px;
@@ -149,6 +159,7 @@ const Perfil = styled.div`
     }
 
     h4 {
+        cursor: pointer;
         float: right;
         margin-top: -450px;
         margin-right: 400px;
@@ -184,6 +195,8 @@ const Perfil = styled.div`
 
 const Perfil2 = styled.div`
     h3 {
+        cursor: pointer;
+        cursor: pointer;
         float: right;
         margin-top: -400px;
         margin-right: 395px;
@@ -191,6 +204,7 @@ const Perfil2 = styled.div`
     }
 
     h4 {
+        cursor: pointer;
         float: right;
         margin-top: -380px;
         margin-right: 399px;
@@ -226,6 +240,8 @@ const Perfil2 = styled.div`
 
 const Perfil3 = styled.div`
     h3 {
+        cursor: pointer;
+        cursor: pointer;
         float: right;
         margin-top: -325px;
         margin-right: 408px;
@@ -233,6 +249,7 @@ const Perfil3 = styled.div`
     }
 
     h4 {
+        cursor: pointer;
         float: right;
         margin-top: -306px;
         margin-right: 408px;
@@ -268,6 +285,7 @@ const Perfil3 = styled.div`
 
 const Perfil4 = styled.div`
     h3 {
+        cursor: pointer;
         float: right;
         margin-top: -260px;
         margin-right: 402px;
@@ -275,6 +293,7 @@ const Perfil4 = styled.div`
     }
 
     h4 {
+        cursor: pointer;
         float: right;
         margin-top: -242px;
         margin-right: 408px;
@@ -310,6 +329,7 @@ const Perfil4 = styled.div`
 
 const Perfil5 = styled.div`
     h3 {
+        cursor: pointer;
         float: right;
         margin-top: -190px;
         margin-right: 450px;
@@ -317,6 +337,7 @@ const Perfil5 = styled.div`
     }
 
     h4 {
+        cursor: pointer;
         float: right;
         margin-top: -170px;
         margin-right: 407px;
