@@ -66,9 +66,10 @@ function Ranking() {
 export default Ranking
 
 const Nav = styled.div`
-    margin-top: 95px;
-    background-color: rgba(50,50,50,.6);  
-
+    position: absolute;
+    margin-top: 140px;
+    background-color: rgba(50,50,50,.6);
+     
     span {
         font-size:14px;
         margin-left: 1342px;
@@ -83,17 +84,18 @@ const RankMenu = styled.div`
         font-weight: bold;
         display: flex;
         flex: 1;
-        margin-left: 69.2%;
-        margin-top: -414px;
+        margin-left: 69.6%;
+        margin-top: -468px;
         color: rgb(247, 149, 51);        
     }
 ` 
 
 // Estlizando a imagem do perfil 1 no Ranking
 const Logo = styled.img`
+    position: relative;
     float: right;
-    margin-right: 525px;
-    margin-top: -358px;
+    margin-right: 513px;
+    margin-top: -468px;
     width: 32px;
     border: 3px solid rgb(247, 149, 51);
     border-radius: 50%;
@@ -142,14 +144,14 @@ const Perfil = styled.div`
     h3 {
         float: right;
         margin-top: -361px;
-        margin-right: 392px;
+        margin-right: 380px;
         font-size: 15px;
     }
 
     h4 {
         float: right;
         margin-top: -342px;
-        margin-right: 412px;
+        margin-right: 400px;
         font-size: 14px;
     }
 
@@ -157,7 +159,7 @@ const Perfil = styled.div`
     float: right;
     margin-top: -322px;
     border-radius: 8px;
-    margin-right: 334px;
+    margin-right: 323px;
     width: 9.7%;
     height: 8px;
     background-color: rgb(250, 250, 250);
@@ -350,8 +352,8 @@ const Perfil5 = styled.div`
 const Position1 = styled.div`
     float:right;
     font-size: 14px;
-    margin-right: 565px;
-    margin-top: -350px;
+    margin-right: 553px;
+    margin-top: -400px;
 `
 
 const Position2 = styled.div`
@@ -390,8 +392,8 @@ const Flag = styled.img`
     float: right;
     width: 10px;
     height: 10px;
-    margin-top: -327px;
-    margin-right: 539px;    
+    margin-top: -380px;
+    margin-right: 527px;    
     border-radius: 50%;
 `
 

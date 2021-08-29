@@ -37,15 +37,15 @@ function Slider() {
 export default Slider
 
 const Card = styled.div`
-    margin-right: 52px;
+    margin-right: 46px;
     height: 167px;
     display: flex;
     justify-content: center;
 
     h4{
         font-size: 21px;
-        margin-right: 55px;
-        margin-top: -100px;
+        margin-right: 40px;
+        margin-top: -95px;
         text-align: left;
         position: absolute;        
     }
@@ -107,6 +107,7 @@ const Card = styled.div`
 const CardImg = styled.img`
     
     cursor: pointer;
+    height: 230px;
     width: 161px;
     border-radius: 10px;
     margin-top: -54px;

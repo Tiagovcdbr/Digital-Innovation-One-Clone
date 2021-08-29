@@ -31,7 +31,7 @@ mouse o efeito é aplicado com uma duração de 2s e junto a isso o efeito de co
 const Nav = styled.nav` 
     justify-content: center;
     align-items: center;
-    width: 340px;
+    width: 330px;
     height: 95px;
     margin-top: 28px;
     margin-left: 14%;
@@ -83,14 +83,14 @@ const NavMenu = styled.div`
         font-size: 17px;
         aling-items: center;
         justify-content: center;
-        margin-left: 120px;
+        margin-left: 117px;
         margin-top: -55px;
     }
 
     h4 {
-        font-size: 15px;
+        font-size: 14px;
         margin-top: -15px;
-        margin-left: 120px;
+        margin-left: 118px;
     }
 
     a {
@@ -112,11 +112,11 @@ const NavMenu = styled.div`
     }   
 
     .progress1 {
-    margin-top: 22px;
+    margin-top: 24px;
     border-radius: 8px;
-    margin-left: 120px;
-    width: 53%;
-    height: 8px;
+    margin-left: 118px;
+    width: 51%;
+    height: 7px;
     background-color: rgb(250, 250, 250);
     position: relative;
 }
@@ -144,9 +144,9 @@ const Status = styled.div`
     box-sizing: border-box;
 
             content: LEVEL 21;
-            margin-left: 228px;
+            margin-left: 218px;
             margin-top: 23px;
-            border-radius: 8px;
+            border-radius: 10px;
             background: #32a929 !important;
             color: white;
             display: flex;
