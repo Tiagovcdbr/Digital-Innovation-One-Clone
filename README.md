@@ -45,9 +45,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Imagens do projeto finalizado 
 
-![Clone DIO página1](https://user-images.githubusercontent.com/78483210/131251863-9f2817cb-52dc-4df6-b83a-d1540c3d655f.png)
 
-![Clone DIO página2](https://user-images.githubusercontent.com/78483210/131251865-8bb9e865-ef9f-401e-b812-97d153ebf3af.png)
-
-![Clone DIO página3](https://user-images.githubusercontent.com/78483210/131251862-70c92e7b-737d-4f81-88ed-23ff69191a50.png)
 
