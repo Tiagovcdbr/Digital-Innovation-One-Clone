@@ -1,15 +1,15 @@
 ## Digital Innovation One clone
 
-### Para rodar o projeto faça um fork ou um gitclone mas caso não esteja familiarizado com o GitHub faça o download!!
-### Após isso rode no terminal de sua IDE npm install para instalar as dependências e após serem baixadas rode o projeto com o npm start que provavelmente será na porta 3000.
+#### Para rodar o projeto faça um fork ou um gitclone mas caso não esteja familiarizado com o GitHub faça o download!!
+#### Após isso rode no terminal de sua IDE npm install para instalar as dependências e após serem baixadas rode o projeto com o npm start que provavelmente será na porta 3000.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 =====================================================
-### Tutorial para instalar o EsLint no projeto e evitar os erros que podem aparecer na hora de codar.
-### Começando a instalação com o comando npx eslint --init
-### Após a execução do comando, o terminal fará perguntas sobre a configuração do ESLint.
-### Pergunta 1:
+#### Tutorial para instalar o EsLint no projeto e evitar os erros que podem aparecer na hora de codar.
+#### Começando a instalação com o comando npx eslint --init
+#### Após a execução do comando, o terminal fará perguntas sobre a configuração do ESLint.
+#### Pergunta 1:
 =====================================================
 ```
 How would you like to use ESLint? (Use arrow keys)
@@ -88,7 +88,7 @@ Se parar o mouse sobre a const que está na linha 1, aparecerá uma breve descri
 #### Após esses passos note que seu código vai estar arrumado e não apontando os erros pois o Prettier e o eslint estão trabalhando em conjunto, ma isso não impede do vscode identificar os erros que não tem como ser evitados mas com essa configuração vai facilitar muito na hora de você codar.
 ## Happy Hacking !!!
 
-### Algumas imagens do projeto
+#### Algumas imagens do projeto
 ===============================
 
 ![1](https://user-images.githubusercontent.com/78483210/139282663-706d7124-a207-4653-9bec-c6a21f23912e.jpg)
@@ -101,5 +101,8 @@ Se parar o mouse sobre a const que está na linha 1, aparecerá uma breve descri
 
 
 ![3](https://user-images.githubusercontent.com/78483210/139282672-2f1d6b3c-0ff3-436c-ac32-287d0ea6bef0.jpg)
+
+#### Caso queira ver como ficou o projeto basta fazer um fork ou um clon do repositório, mas caso não esteja familiarizado com o GitHub faça um download do arquivo e aproveite.
+#### Muito obrigado pela visita e bom aproveitamento /> 😄 😀
 
 
