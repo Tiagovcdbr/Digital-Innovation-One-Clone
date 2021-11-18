@@ -102,7 +102,7 @@ Se parar o mouse sobre a const que está na linha 1, aparecerá uma breve descri
 
 ![3](https://user-images.githubusercontent.com/78483210/139282672-2f1d6b3c-0ff3-436c-ac32-287d0ea6bef0.jpg)
 
-#### Caso queira ver como ficou o projeto basta fazer um fork ou um clon do repositório, mas caso não esteja familiarizado com o GitHub faça um download do arquivo e aproveite.
+#### Caso queira ver como ficou o projeto basta fazer um fork ou um clone do repositório, mas caso não esteja familiarizado com o GitHub faça um download do arquivo e aproveite.
 #### Muito obrigado pela visita e bom aproveitamento /> 😄 😀
 
 
